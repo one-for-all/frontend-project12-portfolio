@@ -1,0 +1,16 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @extend %hidden;
+}
+
+.contact-description {
+  @include mq(med) {
+    font-size: 1.2rem;
+  }
+}
+
+.contact-info {
+
+}

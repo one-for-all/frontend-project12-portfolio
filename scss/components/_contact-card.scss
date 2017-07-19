@@ -1,0 +1,16 @@
+.contact-card {
+  @include e(item) {
+    @include bg-icon-img;
+  }
+}
+
+[class^='contact-card__item'] {
+  padding-left: 30px;
+  margin-bottom: 10px;
+  a {
+    color: $color-text;
+  }
+  @include mq(med) {
+    font-size: 1.2rem;
+  }
+}

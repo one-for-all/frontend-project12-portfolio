@@ -1,0 +1,40 @@
+/*************************************
+  Fonts
+*************************************/
+$font-url--google: "https://fonts.googleapis.com/css?family=Roboto:300,400,700";
+@if variable-exists(font-url--google) {
+  @import url($font-url--google);
+}
+
+$font-family--primary: 'Roboto', sans-serif;
+
+/*************************************
+  Colors
+*************************************/
+$black: #090909;
+$grey: #999;
+$white: #fff;
+
+
+$color-section-border: $black;
+$color-link-border: $grey;
+$color-image-shadow: $grey;
+$color-header-background: $black;
+$color-header-text: $white;
+$color-text: $black;
+
+
+/*************************************
+  Breakpoints
+*************************************/
+$brkpoint-med: 768px;
+$brkpoint-lg: 1024px;
+
+/*************************************
+  Icon map
+*************************************/
+$icon-background: (
+  github: "../images/github.svg",
+  twitter: "../images/twitter.svg",
+  linkedin: "../images/linkedin.svg"
+);

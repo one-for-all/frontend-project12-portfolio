@@ -1,0 +1,34 @@
+/*************************************
+  Nav
+*************************************/
+%nav__li {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 8px;
+  @include mq(med) {
+    margin-left: 15px;
+  }
+}
+
+
+/*************************************
+  Flexbox
+*************************************/
+%flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include mq(med) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/*************************************
+  hidden
+*************************************/
+%hidden {
+  &.hidden {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.nav {
+  @include e(ul) {
+    @extend %flexbox;
+  }
+  @include e(li) {
+    @extend %nav__li;
+    @include m(current) {
+      @extend %nav__li;
+      border-bottom: 1px solid $color-link-border;
+    }
+  }
+}

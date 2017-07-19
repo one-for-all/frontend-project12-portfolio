@@ -1,0 +1,6 @@
+.DS_Store
+.jshintrc
+.tern-project
+.sass-cache
+package-lock.json
+node_modules

@@ -1,0 +1,17 @@
+.heading {
+  @extend %flexbox;
+  width: 100%;
+  @include e(name) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  @include e(icon) {
+    width: 80px;
+    @include mq(med) {
+      width: 60px;
+    }
+  }
+  @include mq(med) {
+    width: 120px;
+  }
+}

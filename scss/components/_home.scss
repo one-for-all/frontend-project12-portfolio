@@ -1,0 +1,9 @@
+.home {
+  @extend %flexbox;
+  flex-wrap: wrap;
+  @include mq(med) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  @extend %hidden;
+}

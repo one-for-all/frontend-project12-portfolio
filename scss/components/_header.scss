@@ -1,0 +1,11 @@
+.header {
+  @extend %flexbox;
+  border-bottom: solid 2px $color-section-border;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  background-color: $color-header-background;
+  color: $color-header-text;
+  @include mq(med) {
+    padding: 10px 50px;
+  }
+}
