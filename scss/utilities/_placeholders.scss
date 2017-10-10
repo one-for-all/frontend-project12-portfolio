@@ -8,6 +8,9 @@
   @include mq(med) {
     margin-left: 15px;
   }
+  a.active {
+    border-bottom: 1px solid $color-link-border;
+  }
 }
 
 
@@ -21,14 +24,5 @@
   @include mq(med) {
     flex-direction: row;
     justify-content: space-between;
-  }
-}
-
-/*************************************
-  hidden
-*************************************/
-%hidden {
-  &.hidden {
-    display: none;
   }
 }

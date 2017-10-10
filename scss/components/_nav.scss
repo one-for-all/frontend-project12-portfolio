@@ -4,9 +4,8 @@
   }
   @include e(li) {
     @extend %nav__li;
-    @include m(current) {
-      @extend %nav__li;
-      border-bottom: 1px solid $color-link-border;
-    }
+  }
+  a {
+    color: $color-header-text;
   }
 }
