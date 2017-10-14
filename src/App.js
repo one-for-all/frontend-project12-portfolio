@@ -13,9 +13,9 @@ function Application() {
     <div>
       <Header />
       <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/writings/' component={Writings} />
-        <Route exact path='/contact/' component={Contact} />
+        <Route exact path='/frontend-project12-portfolio/' component={Home} />
+        <Route exact path='/frontend-project12-portfolio/writings/' component={Writings} />
+        <Route exact path='/frontend-project12-portfolio/contact/' component={Contact} />
       </Switch>
     </div>
   </BrowserRouter>

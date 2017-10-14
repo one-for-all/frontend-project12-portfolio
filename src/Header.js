@@ -10,9 +10,9 @@ function Header() {
       </div>
       <nav className='nav'>
         <ul className='nav__ul'>
-          <li className='nav__li'><NavLink exact to='/'>Home</NavLink></li>
+          <li className='nav__li'><NavLink exact to='/frontend-project12-portfolio/'>Home</NavLink></li>
           {/* <li className='nav__li'><NavLink exact to='/writings/'>Writings</NavLink></li> */}
-          <li className='nav__li'><NavLink exact to='/contact/'>Contact</NavLink></li>
+          <li className='nav__li'><NavLink exact to='/frontend-project12-portfolio/contact/'>Contact</NavLink></li>
         </ul>
       </nav>
     </header>
