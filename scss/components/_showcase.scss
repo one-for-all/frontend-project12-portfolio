@@ -2,9 +2,15 @@
   width: 90%;
   margin: 30px auto;
   border-bottom: solid 1px $color-section-border;
+  overflow: hidden;
   @include e(img) {
     width: 100%;
     box-shadow: 0 1px 1px 1px $color-image-shadow;
+    transition: transform 1s;
+    &:hover {
+      transform: scale(1.1);
+      width: 100%;
+    }
   }
   @include e(title) {
     font-size: 1rem;
