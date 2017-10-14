@@ -6,7 +6,7 @@ function Header() {
     <header className='header'>
       <div className="heading">
         <h1 className="heading__name">JL</h1>
-        <img src="/images/icon.svg" alt="ape icon" className='heading__icon' />
+        <img src="./images/icon.svg" alt="ape icon" className='heading__icon' />
       </div>
       <nav className='nav'>
         <ul className='nav__ul'>
